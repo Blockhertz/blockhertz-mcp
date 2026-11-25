@@ -1,0 +1,23 @@
+{
+  "name": "blockhertz-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Blockhertz AI blockchain tools — audit and gas optimization",
+  "main": "dist/index.js",
+  "bin": { "blockhertz-mcp": "dist/index.js" },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["mcp", "blockchain", "solidity", "audit", "gas", "web3", "ai"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": { "node": ">=18" }
+}
