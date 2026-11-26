@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.blockhertz/blockhertz-mcp",
+  "name": "io.github.muhammadasif84/blockhertz-mcp",
   "description": "AI smart contract auditing and gas optimization for Solidity, Rust, Vyper, Move.",
   "repository": {
     "url": "https://github.com/blockhertz/blockhertz-mcp",
     "source": "github"
   },
-  "version": "0.1.2",
+  "version": "0.1.3",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "blockhertz-mcp",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "transport": {
         "type": "stdio"
       },
