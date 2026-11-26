@@ -70,6 +70,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
+  console.error("blockhertz-mcp v0.1.1 running on stdio");
 }
 
 main().catch((err) => {
