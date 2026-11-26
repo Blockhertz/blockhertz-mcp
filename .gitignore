@@ -7,3 +7,9 @@ dist/
 # Stray files from accidental npm invocations in repo root
 /blockhertz-mcp@*
 /npm
+
+# MCP publisher binary and archive (local tooling, not source)
+mcp-publisher.exe
+mcp-publisher.tar.gz
+*.tar.gz
+*.exe
