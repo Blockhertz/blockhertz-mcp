@@ -3,3 +3,7 @@ dist/
 .env
 *.env.local
 .DS_Store
+
+# Stray files from accidental npm invocations in repo root
+/blockhertz-mcp@*
+/npm
