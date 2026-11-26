@@ -3,5 +3,10 @@ tsconfig.json
 .gitignore
 CLAUDE.md
 *.map
-"git" 
 git
+mcp-publisher.exe
+mcp-publisher.tar.gz
+*.tar.gz
+*.exe
+blockhertz-mcp@*
+npm
